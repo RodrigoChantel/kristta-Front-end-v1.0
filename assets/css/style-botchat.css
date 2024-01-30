@@ -1,0 +1,89 @@
+#chat {
+  z-index: 100;
+  width: 300px;
+  margin: 0 auto;
+  background-image: url(../images/whatsapp/wppbg.webp);
+  border-radius: 15px;
+  position:fixed;
+  right:0;
+  bottom: 0;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  display: none;
+}
+
+#messages {
+  height: 300px;
+  overflow-y: scroll;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.message {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.received {
+  justify-content: flex-start;
+}
+
+.sent {
+  justify-content: flex-end;
+}
+
+.bubble {
+  background-color: #F1F0F0;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 70%;
+  word-wrap: break-word;
+}
+
+.sent .bubble {
+  background-color: #DCF8C6;
+}
+
+#message-form {
+  display: flex;
+}
+
+#message-input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+}
+
+#send-button {
+  border: none;
+  background-color: #015e53;
+  color: #DCF8C6;
+  padding: 10px;
+}
+
+.header-chat{
+  width: 100%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background-color: #015e53;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.header-chat h1{
+  text-align: center;
+  margin-top: auto;
+  color: white;
+  font-size: 20px;
+}
+
+.a-wpp{
+  position:fixed;
+  left: 96%;
+  top:93%;
+  transform: translate(-50%, -50%);
+  color: white;
+  min-width: 50px;
+  max-width: 50px;
+}
+

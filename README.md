@@ -1,6 +1,8 @@
 # kristta-Front-end-v1.0
 Kristta v1 front end website repository.
 
+//O cógio está no branch "master"
+
 Tecnologias:
 
 HTML
